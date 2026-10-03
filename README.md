@@ -14,3 +14,9 @@ some stupid arg i made
 - `site.js` — page-turn, bookshelf, and reveal interactions
 
 new sutff will be added as uhm html files i guess
+
+## Additional records
+
+- `codes/13.html` — remainder-linked copied incident report
+- `records/02.html` — reference-number attachment
+- `dossier.css` — responsive archival document styling

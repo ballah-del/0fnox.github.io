@@ -72,3 +72,13 @@ document.querySelectorAll(".book[data-page]").forEach(book => {
     });
   });
 });
+
+// Reference numbers open separately filed sheets. The site only routes the text entered.
+document.querySelectorAll("[data-document-code-form]").forEach(form => {
+  form.addEventListener("submit", event => {
+    event.preventDefault();
+    const code = new FormData(form).get("code").toString().trim().toLowerCase();
+    if (!/^[a-z0-9-]{1,16}$/.test(code)) return;
+    window.location.href = `../records/${encodeURIComponent(code)}.html`;
+  });
+});
