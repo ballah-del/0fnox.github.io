@@ -8,6 +8,9 @@ some stupid arg i made
 - `entry/01.html` — first item
 - `field/notes.html` — unlisted loose note
 - `styles.css` — shared layout
-- `site.js` — small details
+- `void/index.html` — sparse code-entry space
+- `log/index.html` — interactive bookshelf
+- `codes/` — code-addressed notes
+- `site.js` — page-turn, bookshelf, and reveal interactions
 
 new sutff will be added as uhm html files i guess

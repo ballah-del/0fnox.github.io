@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Books left beside the room.">
+  <meta name="robots" content="noindex">
+  <title>log / shelf</title>
+  <link rel="stylesheet" href="../styles.css">
+  <script defer src="../site.js"></script>
+</head>
+<body class="bookshelf-page">
+  <header class="topline">
+    <a class="mark" href="../index.html">0fnox</a>
+    <span class="topline-note">log / shelf</span>
+    <a class="quiet-link" href="../void/index.html">←</a>
+  </header>
+
+  <main class="log-main">
+    <div class="log-caption"><span>beside the room</span><span>some remain closed</span></div>
+    <section class="book-shelf" aria-label="Bookshelf">
+      <div class="book-row">
+        <button class="book book-one" type="button" data-page="book-room" aria-controls="book-room" aria-pressed="false" aria-label="Book 01, the room">
+          <span class="book-number">01</span><span class="book-title">the room</span><span class="book-mark">—</span>
+        </button>
+        <button class="book book-two" type="button" data-page="book-east" aria-controls="book-east" aria-pressed="false" aria-label="Book 02, east in pencil">
+          <span class="book-number">02</span><span class="book-title">east in pencil</span><span class="book-mark">·</span>
+        </button>
+        <button class="book book-three" type="button" data-page="book-return" aria-controls="book-return" aria-pressed="false" aria-label="Book 03, returned">
+          <span class="book-number">03</span><span class="book-title">returned</span><span class="book-mark">—</span>
+        </button>
+        <button class="book book-redacted" type="button" data-page="book-redacted-a" aria-controls="book-redacted-a" aria-pressed="false" aria-label="Book 04, redacted">
+          <span class="book-number">04</span><span class="book-title">██████</span><span class="book-mark">·</span>
+        </button>
+        <div class="book book-sealed book-five" aria-disabled="true" aria-label="Book 05, unavailable">
+          <span class="book-number">05</span><span class="book-title">no entry</span><span class="book-mark">×</span>
+        </div>
+        <button class="book book-redacted book-six" type="button" data-page="book-redacted-b" aria-controls="book-redacted-b" aria-pressed="false" aria-label="Book 06, redacted">
+          <span class="book-number">06</span><span class="book-title">██████</span><span class="book-mark">—</span>
+        </button>
+        <div class="book book-sealed book-seven" aria-disabled="true" aria-label="Book 07, unavailable">
+          <span class="book-number">07</span><span class="book-title">—</span><span class="book-mark">×</span>
+        </div>
+      </div>
+      <div class="shelf-edge"></div>
+    </section>
+
+    <section class="book-reading" aria-live="polite" aria-label="Open book">
+      <p class="book-page" id="book-room" hidden>the room was measured after the chair moved. the plan keeps its first measurement.</p>
+      <p class="book-page" id="book-east" hidden>north was written in pencil. east appeared later in ink. the heading stayed as it was.</p>
+      <p class="book-page" id="book-return" hidden>the key went back on its hook before anyone asked for it.</p>
+      <p class="book-page redacted-copy" id="book-redacted-a" hidden>page withheld&nbsp; / &nbsp;████████████</p>
+      <p class="book-page redacted-copy" id="book-redacted-b" hidden>contents removed&nbsp; / &nbsp;██████████</p>
+    </section>
+    <p class="log-riddle">the picture kept seventeen.<br>two corrections came after it.<br>write what is left when both are taken back.</p>
+    <p class="log-footnote">the empty spaces are also in the list</p>
+  </main>
+
+  <footer><span>0fnox</span><span>log / 07</span><a href="../index.html">↗</a></footer>
+</body>
+</html>

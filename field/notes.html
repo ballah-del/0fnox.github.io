@@ -7,13 +7,30 @@
   <meta name="robots" content="noindex">
   <title>loose / 04</title>
   <link rel="stylesheet" href="../styles.css">
+  <script defer src="../site.js"></script>
 </head>
 <body class="loose-page">
   <header class="topline"><a class="mark" href="../index.html">0fnox</a><span class="topline-note">loose / 04</span><a class="quiet-link" href="../entry/01.html">← 01</a></header>
   <main class="loose-main">
-    <span class="loose-index">04</span>
-    <p class="loose-text">the north room faces east.<br>i have corrected this twice.</p>
-    <span class="loose-foot">not part of the index</span>
+    <div class="turn-stage" data-correction="02" data-record="04b">
+      <div class="turn-sheet" id="note-sheet">
+        <section class="turn-face turn-front" aria-label="Front of the note">
+          <span class="loose-index">04</span>
+          <p class="loose-text">the north room faces east.<br>i have corrected this twice.</p>
+          <span class="loose-foot">not part of the index</span>
+          <button class="turn-control" type="button" aria-label="Turn the page" aria-controls="note-sheet" aria-expanded="false">↻</button>
+        </section>
+        <section class="turn-face turn-back" aria-label="Back of the note" aria-hidden="true">
+          <span class="loose-index">04 / reverse</span>
+          <div class="reverse-imprint" aria-hidden="true"><span>04</span><i></i><i></i><i></i><i></i></div>
+          <p class="loose-text">same paper.<br>second correction.</p>
+          <!-- the second pass kept its own margin -->
+          <span class="loose-cipher" data-revision="02">DCEM UKFG</span>
+          <span class="loose-foot">not part of the index</span>
+          <button class="turn-control" type="button" aria-label="Turn the page back" aria-controls="note-sheet" aria-expanded="true" tabindex="-1">↻</button>
+        </section>
+      </div>
+    </div>
   </main>
   <footer><span>0fnox</span><span>loose material</span><a href="../index.html">↗</a></footer>
 </body>
