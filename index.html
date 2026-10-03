@@ -1,10 +1,39 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="0fnox — a small collection of things put aside">
+  <meta name="author" content="0fnox">
+  <meta property="og:title" content="0fnox">
+  <meta property="og:description" content="A small collection of things put aside">
+  <title>0fnox</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="site.js"></script>
 </head>
 <body>
-    <h1>Yo, welcome!</h1>
-    <p>This is my website.</p>
+  <header class="topline">
+    <a class="mark" href="index.html" aria-label="h0me">0fnox</a>
+    <span class="topline-note">PERSONAL / 01—03</span>
+    <span class="availability"><span></span> OPEN</span>
+  </header>
+
+  <main>
+    <section class="landing" aria-label="Introduction">
+      <div class="landing-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i><b></b></div>
+      <p class="landing-copy">some things but small, put aside.<br>somewhere between here and elsewhere.</p>
+      <a class="enter" href="entry/01.html"><span>01</span><span>open item</span><span aria-hidden="true">↗</span></a>
+      <p class="margin-note">i put this here so i would remember.</p>
+    </section>
+
+    <nav class="index" aria-label="Index">
+      <span class="index-title">index</span>
+      <a href="entry/01.html"><span>01</span><span>north room</span><span>↗</span></a>
+      <span class="index-disabled"><span>02</span><span>—</span><span>·</span></span>
+      <span class="index-disabled"><span>03</span><span>—</span><span>·</span></span>
+    </nav>
+  </main>
+
+  <footer><span>0fnox</span><span>theres no fixed order.</span><span>↘</span></footer>
 </body>
 </html>
